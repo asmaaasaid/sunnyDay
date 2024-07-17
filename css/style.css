@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Moon+Dance&display=swap');
+:root
+{
+    --gray-text:#212e3c;
+    --small-text-color:#92919E;
+    --graph-text:#2C675B;
+    --photo-color:#175D85;
+    --footer-bg-color:#90D4C5;
+    --footer-color:#2C7564;
+}
+body{
+    font-family: "Heebo", sans-serif;
+}
+.hero-section
+{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../images/image-header.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.text-dance
+{
+    font-family: "Moon Dance", cursive;
+}
+.bg-section
+{
+    
+    height: 75vh;
+    background-image: url('../images/image-transform.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+h4
+{
+    color: var(--gray-text);
+}
+.bg-standout
+{
+    height: 75vh;
+    background-image: url('../images/image-stand-out.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.bg-graphic
+{
+    height: 75vh;
+    background-image: url('../images/image-graphic-design.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.bg-photography
+{
+    height: 75vh;
+    background-image: url('../images/image-photography.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.bg-graphic h5 , .bg-graphic p
+{
+    color: var(--graph-text);
+}
+.bg-graphic p
+{
+    font-size: 12px;
+}
+.bg-photography h5 , .bg-photography p
+{
+    color: var(--photo-color);
+}
+.bg-photography p
+{
+    font-size: 12px;
+}
+.client-testimonial h3
+{
+    letter-spacing: 8px;
+    color: var(--footer-color);
+}
+span
+{
+    font-size: 13px;
+    color: var(--graph-text);
+}
+footer
+{
+    background-color: var(--footer-bg-color);
+    color: var(--footer-color);
+}
+footer h5 a
+{
+    color: var(--footer-color);
+}
