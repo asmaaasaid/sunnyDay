@@ -24,24 +24,10 @@ body{
 {
     font-family: "Moon Dance", cursive;
 }
-.bg-section
-{
-    
-    height: 75vh;
-    background-image: url('../images/image-transform.jpg');
-    background-position: center center;
-    background-size: cover;
-}
+
 h4
 {
     color: var(--gray-text);
-}
-.bg-standout
-{
-    height: 75vh;
-    background-image: url('../images/image-stand-out.jpg');
-    background-position: center center;
-    background-size: cover;
 }
 .bg-graphic
 {
